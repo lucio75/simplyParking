@@ -3,6 +3,18 @@
 	height:auto;
 	max-height:550px !important;
 }
+.page-slide{
+	width:100%;
+	height:auto;
+	max-height:400px !important;
+	border:1px solid red;
+	
+}
+.page-slide img{
+	width:100%;
+	max-height:400px;
+}
+
 
 aside#fh5co-hero{
 	width:100%;
@@ -15,7 +27,8 @@ aside#fh5co-hero{
   width: 100%;
   padding: 2.5em;
   background: rgba(0, 0, 0, 0.7);
-  margin-left: 1em; 
+  margin-left: 1em;
+
   }
 @media screen and (max-width: 768px) {
 	  #fh5co-hero .flexslider .slider-text > .slider-text-inner .desc {
@@ -94,11 +107,10 @@ aside#fh5co-hero{
   color: #d9534f; }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner .heading-title {
   font-size: 60px; }
-
-  .my-desc{
-	  position:fixed;
-	  height:auto;
-	  max-height:500px !important;
+  
+  .slider-text.page{
+	margin-top:-300px;
+	background:rgba(0,0,0,0.7)
   }
   
   h1.title-desc{
@@ -399,12 +411,20 @@ input::-webkit-calendar-picker-indicator:hover {
 	.desc{
 		display:none;
 	}
-	div.prenotazione{widht:100%;margin-top:-100px;margin-left:-10px}
+	div.logo-xl{display:none;}
+	div.logo-s{display:block;}
+	
+	div.prenotazione{widht:100%;margin-top:-100px;}
 		div.prenotazione>form>.form-group{
 		width:100%;
 	}
 }
+@media screen and (max-width: 500px) {
 
+	
+	div.prenotazione{margin-left:-10px;}
+	}
+}
 
 
 

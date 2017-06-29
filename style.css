@@ -113,6 +113,10 @@ aside#fh5co-hero{
 	background:rgba(0,0,0,0.7)
   }
   
+  .page-text{
+	  margin-top:-70px;
+  }
+  
   h1.title-desc{
 	  font-size:1.7em !important;
   }

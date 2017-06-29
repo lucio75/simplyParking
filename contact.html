@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -7,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Homestate &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+	<title>Simply Parking - Parcheggio aeroporto Firenze</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -47,6 +46,8 @@
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
 	<link rel="stylesheet" href="css/icomoon.css">
+		<!-- Awesome Icon Fonts-->
+	<link rel="stylesheet" href="fonts/awesome/css/font-awesome.min.css">
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Superfish -->
@@ -57,22 +58,31 @@
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<!-- Date Picker -->
 	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+	<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
 	<!-- CS Select -->
 	<link rel="stylesheet" href="css/cs-select.css">
 	<link rel="stylesheet" href="css/cs-skin-border.css">
-
 	
 	<link rel="stylesheet" href="css/style.css">
+	
+	<!-- My style -->
+	<link rel="stylesheet" href="style.css">
 
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
+	
 	</head>
+	<body>
+		<div id="fh5co-wrapper">
+		<div id="fh5co-page">
+
 	<body>
 		<div id="fh5co-wrapper">
 		<div id="fh5co-page">
@@ -81,24 +91,16 @@
 			<div class="container">
 				<div class="nav-header">
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
-					<h1 id="fh5co-logo"><a href="index.html"><i class="icon-home"></i>Home<span>state</span></a></h1>
+					<div class="logo-xl col-sm-4"><a href="index.html"><img src="images\logo-simply-parking.png"></a></div>
+					<div class="logo-s col-sm-4"><a href="index.html"><img src="images\Logo-Simply.jpg"></a></div>
 					<!-- START #fh5co-menu-wrap -->
-					<nav id="fh5co-menu-wrap" role="navigation">
+					<nav class="col-md-8" id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
-							<li><a href="index.html">Home</a></li>
-							<li>
-								<a href="properties.html" class="fh5co-sub-ddown">Properties</a>
-								<ul class="fh5co-sub-menu">
-									<li><a href="#">Family</a></li>
-									<li><a href="#">CSS3 &amp; HTML5</a></li>
-									<li><a href="#">Angular JS</a></li>
-									<li><a href="#">Node JS</a></li>
-									<li><a href="#">Django &amp; Python</a></li>
-								</ul>
-							</li>
-							<li><a href="agent.html">Agent</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li class="active"><a href="contact.html">Contact</a></li>
+							<li class="active"><a href="index.html">Prenota</a></li>
+							<li><a href="agent.html">Il Parcheggio</a></li>
+							<li><a href="blog.html">Servizi</a></li>
+							<li><a href="contact.html">Promozioni</a></li>
+							<li><a href="contact.html">Contattaci</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -107,17 +109,17 @@
 
 		<!-- end:header-top -->
 
-		<aside id="fh5co-hero" class="js-fullheight">
-			<div class="flexslider js-fullheight">
+		<aside id="fh5co-hero">
+			<div class="flexslider page-slide">
 				<ul class="slides">
-			   	<li style="background-image: url(images/img_bg_3.jpg);">
-			   		<div class="overlay"></div>
-			   		<div class="container-fluid">
+			   	<li><img src="images/img_bg_3.jpg">
+			   		<!--<div class="overlay"></div>-->
+			   		<div class="container container-fluid">
 			   			<div class="row">
-				   			<div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
+				   		<div class="col-sm-4 col-sm-pull-0 text-center slider-text page">
 			   				<div class="slider-text-inner">
-		   						<h2 class="heading-title">Contact Us</h2>
-		   						<p class="fh5co-lead">Designed with <i class="icon-heart3"></i> by the fine folks at <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a></p>
+		   						<h2 class="heading-title">Contatti</h2>
+		   						<p class="fh5co-lead">Il tuo parcheggio di fiducia a Firenze</p>
 			   				</div>
 			   			</div>
 				   		</div>
@@ -130,16 +132,15 @@
 		<div id="fh5co-contact">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3>Contact Information</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<div class="col-md-10 col-md-offset-1 text-center heading-section animate-box page-text">
+						<p>Simply Parking è il parcheggio low-cost che risponde alle richieste dei suoi clienti tenendo sempre a mente i principi di efficienza, semplicità e immediatezza.</p>
 					</div>
 				</div>
 				<form action="#">
 					<div class="row animate-box">
 						<div class="col-md-6">
-							<h3 class="section-title">Our Address</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<h3 class="section-title">I nostri recapiti</h3>
+							<p>Per qualsiasi dubbio,incertezza o problemi di ogni genere contattateci ai seguenti recapiti.</p>
 							<ul class="contact-info">
 								<li><i class="icon-location-pin"></i>198 West 21th Street, Suite 721 New York NY 10016</li>
 								<li><i class="icon-phone2"></i>+ 1235 2355 98</li>
@@ -183,19 +184,20 @@
 				<div class="container">
 					<div class="row row-bottom-padded-md">
 						<div class="col-md-3">
-							<h3 class="section-title">About Homestate</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
+							<h3 class="section-title">About Simply Parking</h3>
+							<p>Simply Parking Firenze &egrave; un parcheggio di nuova costituzione ,ubicato in posizione strategica a solamente 500 metri dall' aereoporto “ Amerigo Vespucci “ di Firenze per consentire al cliente di raggiungere il terminal di partenza...
+							<br/><a href="#">Continua <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></p>
 						</div>
 						
 						<div class="col-md-3 col-md-push-1">
 							<h3 class="section-title">Links</h3>
 							<ul>
 								<li><a href="#">Home</a></li>
-								<li><a href="#">Properties</a></li>
-								<li><a href="#">Agent</a></li>
-								<li><a href="#">Blog</a></li>
-								<li><a href="#">API</a></li>
-								<li><a href="#">FAQ / Contact</a></li>
+								<li><a href="#">Prenota</a></li>
+								<li><a href="#">Servizi</a></li>
+								<li><a href="#">Promozioni</a></li>
+								<li><a href="#">Partner</a></li>
+								<li><a href="#">Contatti</a></li>
 							</ul>
 						</div>
 
@@ -209,18 +211,13 @@
 							</ul>
 						</div>
 						<div class="col-md-3">
-							<h3 class="section-title">Newsletter</h3>
-							<p>Subscribe for our newsletter</p>
-							<form class="form-inline" id="fh5co-header-subscribe">
+							<h3 class="section-title">Pagamenti Sicuri</h3>
+							<p>Paga in assoluta sicurezza con:</p>
 								<div class="row">
-									<div class="col-md-12 col-md-offset-0">
-										<div class="form-group">
-											<input type="text" class="form-control" id="email" placeholder="Enter your email">
-											<button type="submit" class="btn btn-default"><i class="icon-paper-plane"></i></button>
-										</div>
+									<div class="col-md-12 col-md-offset-0 text-center">
+									<img src="images\logo_paypal_pagamento.png" class="img-responsive">
 									</div>
 								</div>
-							</form>
 						</div>
 					</div>
 					<div class="row">
@@ -232,7 +229,12 @@
 								<a href="#"><i class="icon-dribbble2"></i></a>
 								<a href="#"><i class="icon-youtube"></i></a>
 							</p>
-							<p>Copyright 2016 Free Html5 <a href="#">Module</a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by <a href="http://freehtml5.co/" target="_blank">Freehtml5.co</a> / Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a> &amp; <a href="http://blog.gessato.com/" target="_blank">Gessato</a></p>
+							<p>
+
+							Copyright © 2017 Simply Parking Partita Iva 06639150488. Tutti i diritti riservati.
+
+							Developed By<a href="http://www.dealandme.com/" title="DealAndMe" target="_blank"> DealAndMe</a>
+							</p>
 						</div>
 					</div>
 				</div>

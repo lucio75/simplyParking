@@ -1,3 +1,12 @@
+a:link,a:active,a:hover,a:visited{
+	text-decoration:none !important
+}
+a{	transition:all ease 0.4s;
+	-webkit-transition:all ease 0.4s;
+	-moz-transition:all ease 0.4s;
+	-ms-transition:all ease 0.4s;
+}
+
 .flexslider{
 	width:100%;
 	height:auto;
@@ -360,6 +369,73 @@ input::-webkit-calendar-picker-indicator:hover {
   background: transparent;
   cursor: pointer;
 }
+/*CONTACT*/
+
+.contact-first {
+    position: relative;
+}
+
+.awe-overlay {
+    position: absolute !important;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index:2 !important;
+}
+
+.box-text{
+	background:#000;
+	padding:40px 80px;
+	position:absolute !important;
+	bottom:210px;
+	//left:25%;
+	z-index:3;
+	color:#fff;
+}
+.box-text>h3{color:#fff !important;text-transform:uppercase;}
+.box-text>hr{border-top: 3px dotted #fff;}
+
+address {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.32857143;
+}
+
+span.address {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+}
+.pd0 {
+  padding: 0 !important;
+}
+
+.botton-contact{
+	position:absolute !important;
+	bottom:150px;
+	z-index:3;
+	border:2px solid #ec5d00;
+	padding:5px 15px;
+	background:rgba(0,0,0,0.6)
+}
+
+.botton-contact a{
+	color:#fff;
+	outline:0 !important;
+	text-transform:uppercase;
+	font-weight:500;
+	padding:5px 2px;
+	
+}
+
+.botton-contact a:hover{
+	color:#ec5d00;
+}
+#top-sfu{width:100%; background: url(images/top-sfu.png) repeat-x; height:8px;z-index:20;margin-top:0;}
+#bottom-sfu{width:100%; background: url(images/bottom-sfu.png) repeat-x; height:8px;z-index:20;margin-bottom:0;}
+
+
 /*RESPONSIVE*/
 
 @media screen and (max-width: 1100px) {

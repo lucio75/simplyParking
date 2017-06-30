@@ -206,6 +206,50 @@
 		fullHeight();
 		stickyBanner();
 	});
+	
+	//box-contact
+	
+	/*$(function(){
+		$('.botton-contact a').on('click',function(e){
+			e.preventDefault();
+			$('.box-text').animate({
+				top:'10px',
+				height:'0',
+				padding:'0',
+				zIndex:'-1'
+			});
+			$('.box-text > span').hide(1000);
+			$('.box-text > h3').hide(1000);
+			$('.awe-overlay').fadeOut(1000);
+			$('hr').hide(1000);
+			
+		});
+		
+	});*/
+
+	        /*==============================
+            Map show
+        ==============================*/
+        var dataText1 = $('.see-map a').data('see-contact'),
+            dataText2 = $('.see-map a').data('see-map');     
+        $('.see-map a').text(dataText2);
+        $('.see-map').delegate('a', 'click', function(e) {
+            e.preventDefault();
+            $('.contact-first')
+                .find('.contact-body')
+                    .slideToggle(300);
+            $('.contact-first')
+                .find('.awe-overlay')
+                    .fadeToggle(300);
+            $('.contact-first')
+                .find('.section-cont')
+                    .toggleClass('pd0');
+ 
+            $(this).text(dataText2);
+            if ($('.section-cont').hasClass('pd0')) {
+                $(this).text(dataText1);
+            }
+        });
 
 
 }());
